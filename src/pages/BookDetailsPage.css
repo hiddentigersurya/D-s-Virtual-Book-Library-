@@ -1,0 +1,100 @@
+/* BookDetailsPage.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container.book-details {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* color: #000; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container.book-details img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container.book-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+.container.book-details p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.container.book-details .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container.book-details .btn-success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.container.book-details .btn-success:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.book-details .btn-info {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+.container.book-details .btn-info:hover {
+    background-color: #138496;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container.book-details .btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.container.book-details .btn-secondary:hover {
+    background-color: #5a6268;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container.book-details {
+        padding: 20px;
+    }
+
+    .container.book-details h1 {
+        font-size: 2rem;
+    }
+
+    .container.book-details p {
+        font-size: 1rem;
+    }
+
+    .container.book-details .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
