@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   font-family: 'Arial', sans-serif;
   padding: 20px;
@@ -17,32 +17,32 @@ h1, h3 {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 20px; /* Added padding for better spacing */
+  padding: 20px;
 }
 
 /* Book Card */
 .book-card {
   background: #ffffff;
-  border-radius: 10px; /* Slightly larger border radius for a softer look */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Slightly larger shadow for more depth */
-  padding: 25px; /* Increased padding for better spacing */
-  margin: 20px; /* Increased margin for better spacing */
-  transition: transform 0.2s, box-shadow 0.2s; /* Added transition for box-shadow */
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  padding: 25px;
+  margin: 20px;
+  transition: transform 0.2s, box-shadow 0.2s; 
   text-align: center;
 }
 
 .book-card:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 .book-card h3 {
-  font-size: 1.4rem; /* Slightly larger font size */
-  margin-bottom: 15px; /* Increased margin for better spacing */
+  font-size: 1.4rem; 
+  margin-bottom: 15px;
 }
 
 .book-card p {
-  font-size: 1rem; /* Slightly larger font size */
+  font-size: 1rem; 
   color: #6c757d;
 }
 
@@ -50,7 +50,7 @@ h1, h3 {
   display: block;
   color: #007bff;
   font-weight: bold;
-  margin-top: 15px; /* Increased margin for better spacing */
+  margin-top: 15px; 
   text-decoration: none;
 }
 
@@ -62,12 +62,12 @@ h1, h3 {
 .search-bar {
   width: 100%;
   max-width: 400px;
-  margin-bottom: 30px; /* Increased margin for better spacing */
+  margin-bottom: 30px;
 }
 
 .search-bar input {
   width: 100%;
-  padding: 12px; /* Increased padding for better spacing */
+  padding: 12px; 
   border-radius: 8px;
   border: 1px solid #ced4da;
   font-size: 1rem;
@@ -92,7 +92,7 @@ h1, h3 {
 .book-details button {
   background-color: #28a745;
   color: white;
-  padding: 12px 25px; /* Increased padding for better spacing */
+  padding: 12px 25px;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -108,16 +108,16 @@ h1, h3 {
   display: flex;
   justify-content: space-between;
   background: #ffffff;
-  padding: 20px; /* Increased padding for better spacing */
+  padding: 20px; 
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px; /* Increased margin for better spacing */
+  margin-bottom: 20px;
 }
 
 .library-item button {
   background-color: #dc3545;
   color: white;
-  padding: 8px 15px; /* Increased padding for better spacing */
+  padding: 8px 15px; 
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -127,13 +127,12 @@ h1, h3 {
   background-color: #c82333;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .book-list {
     flex-direction: column;
   }
 
   .book-card {
-    margin: 15px 0; /* Adjusted margin for better spacing on small screens */
+    margin: 15px 0; 
   }
 }
