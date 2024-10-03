@@ -1,6 +1,3 @@
-Here's a detailed and neat **README.md** file for the **Virtual Book Library** project:
-
----
 
 # 📚 Virtual Book Library
 
