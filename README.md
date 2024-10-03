@@ -15,7 +15,7 @@ A **React.js** project that allows users to browse a list of books, view detaile
 - **Persistent Library**: Library updates across all views in real-time.
 
 ## 🚀 Live Demo
-[Link to Demo] (Optional if hosted)
+(https://virtual-book-library-mu.vercel.app/)
 
 ## 🛠️ Installation & Setup
 
